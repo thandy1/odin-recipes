@@ -1,0 +1,85 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0;   */
+}
+
+body {
+    margin-top: 0;
+}
+
+.home-title {
+    border-bottom: 10px solid rgb(255, 145, 0);
+    background-color: rgb(45,0,100);
+    color: rgb(255,255,255);
+    padding-bottom: 24px;
+    padding-top: 24px;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.home-list {
+    font-size: 32px;
+    list-style: none; 
+    text-align: center;
+}
+
+/* Margin spacing for home-list links */
+.margin-space {
+    /* Continues on new line and respects spacing units. */
+    display: block;
+    margin-bottom: 32px;
+}
+/* This covers homepage styling */
+
+.arepas-title {
+    border-bottom: 10px solid rgb(255, 145, 0);
+    background-color: rgb(45,0,100);
+    color: rgb(255,255,255);
+    padding-bottom: 24px;
+    padding-top: 24px;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+img {
+    /* Centers the image */
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.arepas-desc {
+    margin-bottom: 2rem;
+    padding: 8px;
+    font-size: 24px;
+}
+
+.arepas-ing {
+    margin-bottom: 2rem;
+    /* list-style: none; */
+    padding: 8px;
+    font-size: 24px;
+}
+
+.arepas-steps {
+    margin-bottom: 2rem;
+    padding: 8px;
+    font-size: 24px;
+
+}
+
+.instance {
+    display: block; 
+    /* Removes link style text */
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2rem; 
+    font-size: 24px;
+}
+/* This covers Arepas page, move on to Curry page. */
+
